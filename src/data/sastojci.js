@@ -35,6 +35,7 @@ export const stock = {
   tekila: { name: "Tekila", group: "Žestina", abv: 40, color: "#E3EFAE" },
   dzin: { name: "Džin", group: "Žestina", abv: 44, color: "#3FD6BE" },
   beliRum: { name: "Beli rum", group: "Žestina", abv: 40, color: "#F2A93B" },
+  jeger: { name: "Jeger", group: "Žestina", abv: 35, color: "#8C5A18" },
   pelinkovac: {
     name: "Pelinkovac",
     group: "Žestina",
@@ -47,12 +48,24 @@ export const stock = {
     abv: 40,
     color: "#E9AE4A",
   },
+  medovaca: {
+    name: "Medovača",
+    group: "Žestina",
+    abv: 32,
+    color: "#E5B86E",
+  },
 
   // ----------------------------------------------------------
   //  LIKERI
   // ----------------------------------------------------------
   tripleSec: { name: "Triple sec", group: "Likeri", abv: 30, color: "#FF9E1B" },
   curacao: { name: "Blue Curaçao", group: "Likeri", abv: 20, color: "#0A93DB" },
+  kaktusLiker: {
+    name: "Kaktus liker",
+    group: "Likeri",
+    abv: 28,
+    color: "#F1A93A",
+  },
 
   // ----------------------------------------------------------
   //  MEŠERI
@@ -66,6 +79,17 @@ export const stock = {
     abv: 0,
     color: "#D96A00",
   },
+
+  // ----------------------------------------------------------
+  //  VINO
+  // ----------------------------------------------------------
+  tamjanika: {
+    name: "Belo vino (Tamjanika)",
+    group: "Vino",
+    abv: 12,
+    color: "#F7DE8B",
+  },
+  prosecco: { name: "Prosecco", group: "Vino", abv: 11, color: "#F7E08B" },
 
   // ----------------------------------------------------------
   //  SIRUPI

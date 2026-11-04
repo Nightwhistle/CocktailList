@@ -154,7 +154,7 @@ button {
 }
 
 /* ------------------------------------------------------------
-   Spisak bara (sklopivi)
+   Pićovnik (uvek otvoren)
    ------------------------------------------------------------ */
 
 .bar-wrap {
@@ -169,31 +169,18 @@ button {
   box-shadow: 5px 5px 0 var(--ink);
 }
 
-.bar summary {
-  position: relative;
+.bar-head {
   display: flex;
   align-items: center;
   gap: 10px;
   padding: 12px 14px;
-  color: var(--yellow);
-  background: var(--ink);
-  border-bottom: 3px solid var(--ink);
+  color: var(--ink);
+  background: var(--yellow);
+  border-bottom: var(--border);
   font-family: var(--font-display);
   font-size: 0.82rem;
   letter-spacing: 0.01em;
   text-transform: uppercase;
-  list-style: none;
-  cursor: pointer;
-  -webkit-tap-highlight-color: transparent;
-}
-
-.bar summary::-webkit-details-marker {
-  display: none;
-}
-
-.bar summary:focus-visible {
-  outline: 3px solid var(--blue);
-  outline-offset: -3px;
 }
 
 .bar-title {
@@ -206,39 +193,8 @@ button {
   font-size: 0.6rem;
   font-weight: 700;
   letter-spacing: 0.12em;
-  color: var(--pink);
+  color: rgba(17, 17, 17, 0.55);
   white-space: nowrap;
-}
-
-.bar-toggle {
-  display: inline-flex;
-  flex: 0 0 auto;
-  align-items: center;
-  justify-content: center;
-  width: 26px;
-  height: 26px;
-  color: var(--ink);
-  background: var(--yellow);
-  border: 2px solid var(--yellow);
-  box-shadow: none;
-  font-family: var(--font-display);
-  font-size: 0.95rem;
-  line-height: 1;
-}
-
-.bar-toggle::after {
-  content: "+";
-}
-
-.bar[open] .bar-toggle {
-  color: var(--yellow);
-  background: transparent;
-  border-color: var(--yellow);
-  box-shadow: none;
-}
-
-.bar[open] .bar-toggle::after {
-  content: "−";
 }
 
 .bar-body {
@@ -247,19 +203,6 @@ button {
   gap: 6px 20px;
   padding: 12px 14px 16px;
   background: var(--paper);
-  border-top: none;
-  animation: bar-in 0.18s ease both;
-}
-
-@keyframes bar-in {
-  from {
-    opacity: 0;
-    transform: translateY(-4px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
 }
 
 .bar-group h3 {

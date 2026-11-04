@@ -1,7 +1,7 @@
 import { stock } from "../data/sastojci";
 
 /**
- * Sklopivi spisak svega što je na baru.
+ * Pićovnik: spisak svega što je na baru.
  * Grupa i redosled se čitaju iz `sastojci.js` — ništa se ne duplira.
  */
 export default function BarList() {
@@ -20,12 +20,11 @@ export default function BarList() {
 
   return (
     <section className="bar-wrap" aria-label="Pićovnik">
-      <details className="bar">
-        <summary>
+      <div className="bar bar--static">
+        <div className="bar-head">
           <span className="bar-title">Pićovnik</span>
           <span className="bar-count">{items.length} sastojka</span>
-          <span className="bar-toggle" aria-hidden="true" />
-        </summary>
+        </div>
 
         <div className="bar-body">
           {groups.map((group) => (
@@ -49,7 +48,7 @@ export default function BarList() {
             </div>
           ))}
         </div>
-      </details>
+      </div>
     </section>
   );
 }

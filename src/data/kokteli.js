@@ -38,7 +38,8 @@ export const party = {
   footerNote: "Napravljeno za jednu žurku. Pij vodu. Stigni kući bezbedno.",
 };
 
-export const cocktails = [  {
+export const cocktails = [
+  {
     id: "margarita",
     name: "Margarita",
     category: "Tekila",
@@ -53,7 +54,8 @@ export const cocktails = [  {
       { ref: "limeta", amount: 25 },
       { ref: "secer", amount: 10 },
     ],
-  },  {
+  },
+  {
     id: "mohito",
     name: "Mohito",
     category: "Rum",
@@ -69,7 +71,8 @@ export const cocktails = [  {
       { ref: "soda", amount: 60 },
       { ref: "nana", amount: 8, unit: "listova" },
     ],
-  },  {
+  },
+  {
     id: "cuba-libre",
     name: "Cuba Libre",
     category: "Rum",
@@ -83,7 +86,8 @@ export const cocktails = [  {
       { ref: "limeta", amount: 10 },
       { ref: "cola", amount: 120 },
     ],
-  },  {
+  },
+  {
     id: "dzin-tonik",
     name: "Džin tonik",
     category: "Džin",
@@ -96,7 +100,8 @@ export const cocktails = [  {
       { ref: "dzin", amount: 50 },
       { ref: "tonik", amount: 120 },
     ],
-  },  {
+  },
+  {
     id: "daikiri",
     name: "Daiquiri",
     category: "Rum",
@@ -110,7 +115,8 @@ export const cocktails = [  {
       { ref: "limeta", amount: 25 },
       { ref: "secer", amount: 15 },
     ],
-  },  {
+  },
+  {
     id: "espreso-martini",
     name: "Espreso martini",
     category: "Vodka",
@@ -124,7 +130,8 @@ export const cocktails = [  {
       { ref: "espreso", amount: 30 },
       { ref: "secer", amount: 15 },
     ],
-  },  {
+  },
+  {
     id: "long-island",
     name: "Long Island Iced Tea",
     category: "Koktel",
@@ -143,7 +150,8 @@ export const cocktails = [  {
       { ref: "secer", amount: 10 },
       { ref: "cola", amount: 60 },
     ],
-  },  {
+  },
+  {
     id: "tom-collins",
     name: "Tom Collins",
     category: "Džin",
@@ -158,7 +166,8 @@ export const cocktails = [  {
       { ref: "secer", amount: 15 },
       { ref: "soda", amount: 60 },
     ],
-  },  {
+  },
+  {
     id: "white-lady",
     name: "White Lady",
     category: "Džin",
@@ -172,7 +181,8 @@ export const cocktails = [  {
       { ref: "tripleSec", amount: 20 },
       { ref: "limun", amount: 20 },
     ],
-  },  {
+  },
+  {
     id: "batanga",
     name: "Batanga",
     category: "Tekila",
@@ -186,7 +196,8 @@ export const cocktails = [  {
       { ref: "limeta", amount: 15 },
       { ref: "cola", amount: 120 },
     ],
-  },  {
+  },
+  {
     id: "ranch-water",
     name: "Ranch Water",
     category: "Tekila",
@@ -200,11 +211,12 @@ export const cocktails = [  {
       { ref: "limeta", amount: 20 },
       { ref: "soda", amount: 120 },
     ],
-  },  {
+  },
+  {
     id: "blue-lagoon",
     name: "Blue Lagoon",
     category: "Vodka",
-    tagline: "Plav ko bazen, pije se kao sok. Pazi se.",
+    tagline: "Plav kao bazen, pije se kao sok. Pazi se.",
     accent: "#29C2F5",
     methodLabel: "Recept",
     method:
@@ -215,7 +227,8 @@ export const cocktails = [  {
       { ref: "limun", amount: 20 },
       { ref: "soda", amount: 80 },
     ],
-  },  {
+  },
+  {
     id: "purple-rain",
     name: "Purple Rain",
     category: "Vodka",
@@ -231,7 +244,8 @@ export const cocktails = [  {
       { ref: "limun", amount: 20 },
       { ref: "soda", amount: 60 },
     ],
-  },  {
+  },
+  {
     id: "blue-margarita",
     name: "Blue Margarita",
     category: "Tekila",
@@ -246,7 +260,8 @@ export const cocktails = [  {
       { ref: "limeta", amount: 25 },
       { ref: "secer", amount: 10 },
     ],
-  },  {
+  },
+  {
     id: "zova-collins",
     name: "Zova Collins",
     category: "Džin",
@@ -261,7 +276,8 @@ export const cocktails = [  {
       { ref: "limun", amount: 20 },
       { ref: "soda", amount: 80 },
     ],
-  },  {
+  },
+  {
     id: "vodka-collins",
     name: "Vodka Collins",
     category: "Vodka",
@@ -276,7 +292,8 @@ export const cocktails = [  {
       { ref: "secer", amount: 15 },
       { ref: "soda", amount: 60 },
     ],
-  },  {
+  },
+  {
     id: "vodka-jabuka",
     name: "Vodka jabuka",
     category: "Vodka",
@@ -290,7 +307,8 @@ export const cocktails = [  {
       { ref: "sokJabuka", amount: 100 },
       { ref: "tonik", amount: 50 },
     ],
-  },  {
+  },
+  {
     id: "rakija-sidecar",
     name: "Rakija Sidecar",
     category: "Rakija",
@@ -304,7 +322,8 @@ export const cocktails = [  {
       { ref: "tripleSec", amount: 20 },
       { ref: "limun", amount: 20 },
     ],
-  },  {
+  },
+  {
     id: "rakija-tonik",
     name: "Rakija tonik",
     category: "Rakija",
@@ -316,7 +335,8 @@ export const cocktails = [  {
       { ref: "rakija", amount: 40 },
       { ref: "tonik", amount: 120 },
     ],
-  },  {
+  },
+  {
     id: "pelinkovac-tonik",
     name: "Pelinkovac tonik",
     category: "Pelinkovac",
@@ -328,7 +348,8 @@ export const cocktails = [  {
       { ref: "pelinkovac", amount: 50 },
       { ref: "tonik", amount: 120 },
     ],
-  },  {
+  },
+  {
     id: "pivo-jabuka",
     name: "Pivo i jabuka",
     category: "Pivo",
@@ -340,6 +361,92 @@ export const cocktails = [  {
     ingredients: [
       { ref: "staropramen", amount: 200 },
       { ref: "sokJabuka", amount: 100 },
+    ],
+  },
+  {
+    id: "aperol-spric",
+    name: "Spric (Prosecco)",
+    category: "Vino",
+    tagline: "Prosecco i mehurići, sve ostalo je opcione. Tamjanika špric radi isto.",
+    accent: "#FF8A1A",
+    methodLabel: "Recept",
+    method:
+      "Napuni čašu ledom, sipaj proseko (ili vino), pa dolij gaziranu vodu i lagano promešaj.",
+    ingredients: [
+      { ref: "prosecco", amount: 90 },
+      { ref: "soda", amount: 60 },
+    ],
+  },
+  {
+    id: "jeger-med",
+    name: "Jeger med",
+    category: "Jeger",
+    tagline: "Jeger i medovača. Domaće uz Jeger.",
+    accent: "#F0C369",
+    methodLabel: "Recept",
+    method:
+      "Protresi Jeger i medovaču sa ledom u šejkeru, pa procedi u čašu sa ledom.",
+    ingredients: [
+      { ref: "jeger", amount: 40 },
+      { ref: "medovaca", amount: 20 },
+    ],
+  },
+  {
+    id: "jager-bomba",
+    name: "Jager bomba",
+    category: "Jeger",
+    tagline: "Jeger u najčistijem obliku. Sve ostalo je zaglavlje.",
+    accent: "#8C5A18",
+    methodLabel: "Recept",
+    method:
+      "Napuni čašu ledom do vrha, sipaj Jeger, dolij kolu i promešaj.",
+    ingredients: [
+      { ref: "jeger", amount: 40 },
+      { ref: "cola", amount: 120 },
+    ],
+  },
+  {
+    id: "kaktus-collins",
+    name: "Kaktus Collins",
+    category: "Likeri",
+    tagline: "Kaktus liker, limun i mehurići. Sitan i lucidan.",
+    accent: "#F6C04A",
+    methodLabel: "Recept",
+    method:
+      "Protresi kaktus liker i limun sa sirupom, procedi u čašu sa ledom i dolij gaziranu.",
+    ingredients: [
+      { ref: "kaktusLiker", amount: 40 },
+      { ref: "limun", amount: 20 },
+      { ref: "soda", amount: 90 },
+    ],
+  },
+  {
+    id: "kaktus-pivo",
+    name: "Kaktus pivo",
+    category: "Likeri",
+    tagline: "Kaktus liker i pivo. Jaka kombinacija.",
+    accent: "#F5C518",
+    methodLabel: "Recept",
+    method:
+      "Ohladi oba sastojka, sipaj pivo pa kaktus liker i lagano promešaj.",
+    ingredients: [
+      { ref: "kaktusLiker", amount: 40 },
+      { ref: "staropramen", amount: 200 },
+    ],
+  },
+  {
+    id: "tamjanika-tonik",
+    name: "Tamjanika tonik",
+    category: "Vino",
+    tagline: "Belo vino i tonik. Gorko i mirisno.",
+    accent: "#FFE9A3",
+    methodLabel: "Recept",
+    method:
+      "Napuni čašu ledom, sipaj vino i limetu, dolij tonik i promešaj.",
+    ingredients: [
+      { ref: "tamjanika", amount: 100 },
+      { ref: "limeta", amount: 10 },
+      { ref: "tonik", amount: 100 },
     ],
   },
 ];
