@@ -17,9 +17,9 @@ export default function GlassDiagram({ ingredients, label }) {
   );
   const total = liquids.reduce((sum, ingredient) => sum + ingredient.amount, 0);
 
-  // Ostavi malo prostora do ivice i do dna čaše.
+  // Ostavi malo prostora do ivice čaše; do dna ide do samog ruba.
   const fillTop = TOP + (BOTTOM - TOP) * 0.1;
-  const fillBottom = BOTTOM - (BOTTOM - TOP) * 0.03;
+  const fillBottom = BOTTOM;
   const fillHeight = fillBottom - fillTop;
 
   // U konfiguraciji su žestine prve, mešeri poslednji => slažemo odozdo nagore.
