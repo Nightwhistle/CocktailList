@@ -43,7 +43,7 @@ export const cocktails = [
     id: "margarita",
     name: "Margarita",
     category: "Tekila",
-    tagline: "Najpoznatiji tekila koktel na svetu. Kiselkast i direktan.",
+    tagline: "Rođena je 1948. po jednoj Marjorie, so na ivici, limeta u čaši. Sestra je htela da je napravi pitku, ali se ispostavilo da je tekila sve. Posle druge se više ne sećaš ko je Marjorie.",
     accent: "#FFD93D",
     methodLabel: "Recept",
     method:
@@ -59,7 +59,7 @@ export const cocktails = [
     id: "mohito",
     name: "Mohito",
     category: "Rum",
-    tagline: "Rum, nana i led. Letnji klasik koji se pije prebrzo.",
+    tagline: "Hemingway ga je pio u Havani, a svaki gutljaj je imao ukus leta i rima. Nana se lomi, limeta se tuče, led sve hladi — ti samo misliš da je lagan.",
     accent: "#5FE07A",
     methodLabel: "Recept",
     method:
@@ -76,7 +76,7 @@ export const cocktails = [
     id: "cuba-libre",
     name: "Cuba Libre",
     category: "Rum",
-    tagline: "Rum, kola i limeta. Tri sastojka, ceo letnji dan.",
+    tagline: "Rođen 1898. kad su američki mornari proslavili kraj španskog rata na Kubi, rum, kola i limeta za oslobođenje. Prošlo je više od jednog veka, a ukus je opet isti.",
     accent: "#FFB020",
     methodLabel: "Recept",
     method:
@@ -91,7 +91,7 @@ export const cocktails = [
     id: "dzin-tonik",
     name: "Džin tonik",
     category: "Džin",
-    tagline: "Dva sastojka, led radi sav posao.",
+    tagline: "Britanski vojnici su ga pili u Indiji da maskiraju gorki lek protiv malarije. Lekar je rekao bitno je da ga popiješ, a džin je dodao tonik da se lakše proguta.",
     accent: "#5FC7FF",
     methodLabel: "Recept",
     method:
@@ -105,7 +105,7 @@ export const cocktails = [
     id: "daikiri",
     name: "Daiquiri",
     category: "Rum",
-    tagline: "Rum, limeta i sirup. Ništa više ne treba.",
+    tagline: "Inženjer Jennings Cox ga je izmislio 1896. na plaži Daiquiri kod Santjaga. Primeran, kiselkast i bez suviše priče — rum, limeta i sirup znaju gde im je mesto.",
     accent: "#B4E33D",
     methodLabel: "Recept",
     method:
@@ -120,7 +120,7 @@ export const cocktails = [
     id: "espreso-martini",
     name: "Espreso martini",
     category: "Vodka",
-    tagline: "Kafa koja budi i uspavljuje u isto vreme.",
+    tagline: "Dik Bradsell ga je napravio 1983. u Londonu jer je gošća tražila nešto da je probudi i dotuče. U dve sekunde se smišljao muzika, bar i život.",
     accent: "#D2A06A",
     methodLabel: "Recept",
     method:
@@ -135,7 +135,7 @@ export const cocktails = [
     id: "long-island",
     name: "Long Island Iced Tea",
     category: "Koktel",
-    tagline: "Sve žestine u jednoj čaši. Pij polako.",
+    tagline: "Ime laže kao primeran student. Izgleda kao čaj bez alkohola, a u njemu je pet žestina i kola da sakrije dokaze. Policija ga je prolazila, a glava klecala.",
     accent: "#D9A24E",
     methodLabel: "Recept",
     method:
@@ -155,7 +155,7 @@ export const cocktails = [
     id: "tom-collins",
     name: "Tom Collins",
     category: "Džin",
-    tagline: "Džin, limun i mehurići. Lagan i opasno pitak.",
+    tagline: "Ime je šala iz 1800-ih — prijatelji jedni druge šalju u potragu za gospodinom Collinsom po Londonu. Koktel je opstao, gospodin nikad nije pronađen.",
     accent: "#FFE03D",
     methodLabel: "Recept",
     method:
@@ -171,7 +171,7 @@ export const cocktails = [
     id: "white-lady",
     name: "White Lady",
     category: "Džin",
-    tagline: "Džin, triple sec i limun. Čist i precizan.",
+    tagline: "Pariz 1919, Harry Bar i flaša likera za damu u belom. Providna, hladna i opasna, baš kao dame koje je inspirisala.",
     accent: "#FFE9A3",
     methodLabel: "Recept",
     method:
@@ -186,7 +186,7 @@ export const cocktails = [
     id: "batanga",
     name: "Batanga",
     category: "Tekila",
-    tagline: "Tekila, kola i limeta. Meksička klasika bez komplikacije.",
+    tagline: "Selo Batanga u Meksiku, koktel sa početka prošlog veka — tekila, kola i limeta, bez ikakve filozofije. Radi isto već sto godina, pa zašto da menja?",
     accent: "#FF8A1A",
     methodLabel: "Recept",
     method:
@@ -201,7 +201,7 @@ export const cocktails = [
     id: "ranch-water",
     name: "Ranch Water",
     category: "Tekila",
-    tagline: "Tekila, limeta i soda. Najlakši koktel na svetu.",
+    tagline: "Austin, Teksas, dobio ime po ranču gde ga piju radnici — voda sa ranca koja baš i nije voda. Tekila, limeta i soda, a ti se i dalje ponašaš kao na travi.",
     accent: "#B8E86A",
     methodLabel: "Recept",
     method:
@@ -216,7 +216,7 @@ export const cocktails = [
     id: "blue-lagoon",
     name: "Blue Lagoon",
     category: "Vodka",
-    tagline: "Plav kao bazen, pije se kao sok. Pazi se.",
+    tagline: "Rođena u šezdesetim, plava kao bazen, pitka kao limunada. Moderna varijanta Margarite, samo u plavoj haljini — sve je igra boje, ništa drugo.",
     accent: "#29C2F5",
     methodLabel: "Recept",
     method:
@@ -232,7 +232,7 @@ export const cocktails = [
     id: "purple-rain",
     name: "Purple Rain",
     category: "Vodka",
-    tagline: "Plavo i crveno se pomešaju u ljubičasto. Žurka u čaši.",
+    tagline: "Prince je 1984. pevao o ljubičastoj kiši koja prska zvukom. Koktel je sipao plavo i crveno, a boja je počela da živi sopstvenim životom.",
     accent: "#B07CF0",
     methodLabel: "Recept",
     method:
@@ -249,7 +249,7 @@ export const cocktails = [
     id: "blue-margarita",
     name: "Blue Margarita",
     category: "Tekila",
-    tagline: "Margarita u plavom izdanju, sa curaçaom umesto triple sec-a.",
+    tagline: "Ista porodica kao klasična, samo je curaçao obukao u plavu haljinu. Tekila, limeta i blue curaçao odlučili da i Meksiko ima svoju morsku varijantu.",
     accent: "#5BC8F5",
     methodLabel: "Recept",
     method:
@@ -265,7 +265,7 @@ export const cocktails = [
     id: "zova-collins",
     name: "Zova Collins",
     category: "Džin",
-    tagline: "Džin, zova i limun. Miris leta u čaši.",
+    tagline: "Džin, zova i limun — kao Tom Collins, ali na letnjem odmoru u cveću. Miris zove prevari veštinu, a sutra te vrati na početak.",
     accent: "#E8DE6A",
     methodLabel: "Recept",
     method:
@@ -281,7 +281,7 @@ export const cocktails = [
     id: "vodka-collins",
     name: "Vodka Collins",
     category: "Vodka",
-    tagline: "Vodka u laganom, citrusnom izdanju.",
+    tagline: "Kad džina nema, vodka uskače i tvrdi da je svejedno. Nije, ali proći će — limun i soda ionako nose većinu razgovora.",
     accent: "#D3E1F7",
     methodLabel: "Recept",
     method:
@@ -297,7 +297,7 @@ export const cocktails = [
     id: "vodka-jabuka",
     name: "Vodka jabuka",
     category: "Vodka",
-    tagline: "Gusti sok od jabuke i malo tonika. Sok za odrasle.",
+    tagline: "Gusti sok od jabuke da svi misle da piješ sok. Svi misle pogrešno, a ti se samo pretvaraš da je to voće.",
     accent: "#F09400",
     methodLabel: "Recept",
     method:
@@ -312,7 +312,7 @@ export const cocktails = [
     id: "rakija-sidecar",
     name: "Rakija Sidecar",
     category: "Rakija",
-    tagline: "Domaća rakija u klasičnom francuskom kroju.",
+    tagline: "U Parizu posle Prvog svetskog rata Sidecar se pio jer si pio da zaboraviš — rakija je preuzela francusku eleganciju i ostala domaća.",
     accent: "#EFB05A",
     methodLabel: "Recept",
     method:
@@ -327,7 +327,7 @@ export const cocktails = [
     id: "rakija-tonik",
     name: "Rakija tonik",
     category: "Rakija",
-    tagline: "Domaća rakija u gorkom, laganom izdanju.",
+    tagline: "Domaća rakija u toniku — kao džin tonik, samo komšija iz sela koji odbija da nosi kravatu. Gorko, lagano i iznenađujuće pristojno.",
     accent: "#FF8E7A",
     methodLabel: "Recept",
     method: "Napuni čašu ledom, sipaj rakiju, dolij tonik i promešaj.",
@@ -340,7 +340,7 @@ export const cocktails = [
     id: "pelinkovac-tonik",
     name: "Pelinkovac tonik",
     category: "Pelinkovac",
-    tagline: "Gorak, travnat i baš osvežavajuć. Pelinkovac u laganom izdanju.",
+    tagline: "Pelinkovac nije žednjak jer ga srce odlučuje — travnat i ozbiljan je po prirodi. Tonik ga sprečava da se preda i odbija, a jutro ga prati.",
     accent: "#B79BF5",
     methodLabel: "Recept",
     method: "Napuni čašu ledom, sipaj pelinkovac, dolij tonik i promešaj.",
@@ -353,7 +353,7 @@ export const cocktails = [
     id: "pivo-jabuka",
     name: "Pivo i jabuka",
     category: "Pivo",
-    tagline: "Radler, ali sa pravom jabukom. Nisko alkoholno, visoko pitko.",
+    tagline: "Radler iz Nemačke: pivo plus limunada. Ovde jabuka preuzima, pivo se ne žali. Ostaje pitanje koliko flairi ima flaša i koliko imaš vremena.",
     accent: "#FFC400",
     methodLabel: "Recept",
     method:
@@ -367,7 +367,7 @@ export const cocktails = [
     id: "aperol-spric",
     name: "Spric (Prosecco)",
     category: "Vino",
-    tagline: "Prosecco i mehurići, sve ostalo je opcione. Tamjanika špric radi isto.",
+    tagline: "Venecija, letnji ritual oko pet popodne — Prosecco, soda i bar. Tamjanika špric radi istu misiju, sprečava dosadu i podiže puls.",
     accent: "#FF8A1A",
     methodLabel: "Recept",
     method:
@@ -381,7 +381,7 @@ export const cocktails = [
     id: "jeger-med",
     name: "Jeger med",
     category: "Jeger",
-    tagline: "Jeger i medovača. Domaće uz Jeger.",
+    tagline: "Jäger kaže da je tajni recept od 56 biljaka — medovača dodaje domaći potpis. Pije se hladan, razume se, a pamet čuva za posle.",
     accent: "#F0C369",
     methodLabel: "Recept",
     method:
@@ -395,7 +395,7 @@ export const cocktails = [
     id: "jager-bomba",
     name: "Jager bomba",
     category: "Jeger",
-    tagline: "Jeger u najčistijem obliku. Sve ostalo je zaglavlje.",
+    tagline: "Nazvana bomba jer legne teško — nije eksplodirala u čaši, nego kasnije na podu. Jeger, kola i led, a svedoci ćute.",
     accent: "#8C5A18",
     methodLabel: "Recept",
     method:
@@ -409,7 +409,7 @@ export const cocktails = [
     id: "kaktus-collins",
     name: "Kaktus Collins",
     category: "Likeri",
-    tagline: "Kaktus liker, limun i mehurići. Sitan i lucidan.",
+    tagline: "Kaktus liker iz Meksika, limun i soda — slatko, ali sa bodljama. Sitno, lucidan i pomalo lukav, kao svaka loša odluka u leto.",
     accent: "#F6C04A",
     methodLabel: "Recept",
     method:
@@ -424,7 +424,7 @@ export const cocktails = [
     id: "kaktus-pivo",
     name: "Kaktus pivo",
     category: "Likeri",
-    tagline: "Kaktus liker i pivo. Jaka kombinacija.",
+    tagline: "Pivo i kaktus liker zvuči kao izazov, a pije se kao ništa. Pivo je jestivo, kaktus drži karakter, a ti i dalje tvrdiš da je to eksperiment.",
     accent: "#F5C518",
     methodLabel: "Recept",
     method:
@@ -438,7 +438,7 @@ export const cocktails = [
     id: "tamjanika-tonik",
     name: "Tamjanika tonik",
     category: "Vino",
-    tagline: "Belo vino i tonik. Gorko i mirisno.",
+    tagline: "Tamjanika miriše na muskat i ružu — tonik je pretvara u nešto ozbiljnije. Vino, limeta i gorkost u nešto što zoveš večera.",
     accent: "#FFE9A3",
     methodLabel: "Recept",
     method:
