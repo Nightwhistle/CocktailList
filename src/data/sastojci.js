@@ -57,12 +57,12 @@ export const stock = {
   // ----------------------------------------------------------
   //  MEŠERI
   // ----------------------------------------------------------
-  cola: { name: "Coca-Cola", group: "Mešeri", abv: 0, color: "#3A1B0C" },
-  tonik: { name: "Tonik", group: "Mešeri", abv: 0, color: "#9BD8F2" },
-  soda: { name: "Gazirana voda", group: "Mešeri", abv: 0, color: "#6EC6EA" },
+  cola: { name: "Coca-Cola", group: "Sokovi i voda", abv: 0, color: "#3A1B0C" },
+  tonik: { name: "Tonik", group: "Sokovi i voda", abv: 0, color: "#9BD8F2" },
+  soda: { name: "Gazirana voda", group: "Sokovi i voda", abv: 0, color: "#6EC6EA" },
   sokJabuka: {
     name: "Gusti sok od jabuke",
-    group: "Mešeri",
+    group: "Sokovi i voda",
     abv: 0,
     color: "#D96A00",
   },
@@ -91,4 +91,9 @@ export const stock = {
     abv: 0,
     color: "#1C0F07",
   },
-};
+  caj: {
+    name: "Čaj",
+    group: "Kafa",
+    abv: 0,
+    color: "#D8A65C",
+  },};

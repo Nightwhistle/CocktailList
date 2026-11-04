@@ -19,10 +19,10 @@ export default function BarList() {
   });
 
   return (
-    <section className="bar-wrap" aria-label="Spisak bara">
+    <section className="bar-wrap" aria-label="Pićovnik">
       <details className="bar">
         <summary>
-          <span className="bar-title">Šta je u baru</span>
+          <span className="bar-title">Pićovnik</span>
           <span className="bar-count">{items.length} sastojka</span>
           <span className="bar-toggle" aria-hidden="true" />
         </summary>
@@ -34,7 +34,14 @@ export default function BarList() {
               <ul>
                 {group.items.map((item) => (
                   <li key={item.name}>
-                    <span>{item.name}</span>
+                    <span className="bar-name">
+                      <span
+                        className="bar-dot"
+                        style={{ background: item.color }}
+                        aria-hidden="true"
+                      />
+                      {item.name}
+                    </span>
                     {item.abv > 0 ? <b>{item.abv}%</b> : null}
                   </li>
                 ))}

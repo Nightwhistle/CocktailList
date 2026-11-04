@@ -11,7 +11,7 @@ Nema backenda ni baze. Meni se pravi iz dva data fajla:
 - `src/data/sastojci.js` — šta imamo: naziv, polica, jačina i boja sastojka
 - `src/data/kokteli.js` — recepti; samo kažu koji sastojak i koliko
 
-Na vrhu aplikacije je sklopiva lista **„Šta je u baru“** — sve što imamo, po
+Na vrhu aplikacije je sklopiva lista **„Pićovnik“** — sve što imamo, po
 policama. Ona se čita direktno iz `sastojci.js`, pa se nikad ne razilazi sa
 menijem.
 
@@ -45,7 +45,7 @@ limeta: {
 
 - Ovo je jedini spisak koji određuje meni. Nema `have` ni `buyNote` — ili je
   sastojak u fajlu (imamo ga) ili ga nema (kokteli koji ga traže ispadaju).
-- `group` određuje police u sklopivom spisku „Šta je u baru“ na vrhu
+- `group` određuje police u sklopivom „Pićovniku“ na vrhu
   aplikacije. Redosled grupa je redosled prvog pojavljivanja u fajlu.
 - Trenutno stanje: pivo (Jelen, Staropramen), vodka, tekila, džin, beli rum,
   pelinkovac, domaća rakija, triple sec, blue curaçao, kola, tonik, gazirana

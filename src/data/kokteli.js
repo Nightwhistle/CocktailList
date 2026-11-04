@@ -38,8 +38,7 @@ export const party = {
   footerNote: "Napravljeno za jednu žurku. Pij vodu. Stigni kući bezbedno.",
 };
 
-export const cocktails = [
-  {
+export const cocktails = [  {
     id: "margarita",
     name: "Margarita",
     category: "Tekila",
@@ -54,8 +53,7 @@ export const cocktails = [
       { ref: "limeta", amount: 25 },
       { ref: "secer", amount: 10 },
     ],
-  },
-  {
+  },  {
     id: "mohito",
     name: "Mohito",
     category: "Rum",
@@ -71,8 +69,7 @@ export const cocktails = [
       { ref: "soda", amount: 60 },
       { ref: "nana", amount: 8, unit: "listova" },
     ],
-  },
-  {
+  },  {
     id: "cuba-libre",
     name: "Cuba Libre",
     category: "Rum",
@@ -86,8 +83,7 @@ export const cocktails = [
       { ref: "limeta", amount: 10 },
       { ref: "cola", amount: 120 },
     ],
-  },
-  {
+  },  {
     id: "dzin-tonik",
     name: "Džin tonik",
     category: "Džin",
@@ -100,8 +96,7 @@ export const cocktails = [
       { ref: "dzin", amount: 50 },
       { ref: "tonik", amount: 120 },
     ],
-  },
-  {
+  },  {
     id: "daikiri",
     name: "Daiquiri",
     category: "Rum",
@@ -115,8 +110,7 @@ export const cocktails = [
       { ref: "limeta", amount: 25 },
       { ref: "secer", amount: 15 },
     ],
-  },
-  {
+  },  {
     id: "espreso-martini",
     name: "Espreso martini",
     category: "Vodka",
@@ -130,8 +124,7 @@ export const cocktails = [
       { ref: "espreso", amount: 30 },
       { ref: "secer", amount: 15 },
     ],
-  },
-  {
+  },  {
     id: "long-island",
     name: "Long Island Iced Tea",
     category: "Koktel",
@@ -150,8 +143,7 @@ export const cocktails = [
       { ref: "secer", amount: 10 },
       { ref: "cola", amount: 60 },
     ],
-  },
-  {
+  },  {
     id: "tom-collins",
     name: "Tom Collins",
     category: "Džin",
@@ -166,8 +158,7 @@ export const cocktails = [
       { ref: "secer", amount: 15 },
       { ref: "soda", amount: 60 },
     ],
-  },
-  {
+  },  {
     id: "white-lady",
     name: "White Lady",
     category: "Džin",
@@ -181,8 +172,7 @@ export const cocktails = [
       { ref: "tripleSec", amount: 20 },
       { ref: "limun", amount: 20 },
     ],
-  },
-  {
+  },  {
     id: "batanga",
     name: "Batanga",
     category: "Tekila",
@@ -196,8 +186,7 @@ export const cocktails = [
       { ref: "limeta", amount: 15 },
       { ref: "cola", amount: 120 },
     ],
-  },
-  {
+  },  {
     id: "ranch-water",
     name: "Ranch Water",
     category: "Tekila",
@@ -211,8 +200,7 @@ export const cocktails = [
       { ref: "limeta", amount: 20 },
       { ref: "soda", amount: 120 },
     ],
-  },
-  {
+  },  {
     id: "blue-lagoon",
     name: "Blue Lagoon",
     category: "Vodka",
@@ -227,8 +215,7 @@ export const cocktails = [
       { ref: "limun", amount: 20 },
       { ref: "soda", amount: 80 },
     ],
-  },
-  {
+  },  {
     id: "purple-rain",
     name: "Purple Rain",
     category: "Vodka",
@@ -244,8 +231,7 @@ export const cocktails = [
       { ref: "limun", amount: 20 },
       { ref: "soda", amount: 60 },
     ],
-  },
-  {
+  },  {
     id: "blue-margarita",
     name: "Blue Margarita",
     category: "Tekila",
@@ -260,38 +246,7 @@ export const cocktails = [
       { ref: "limeta", amount: 25 },
       { ref: "secer", amount: 10 },
     ],
-  },
-  {
-    id: "shirley-temple",
-    name: "Shirley Temple",
-    category: "Bez alkohola",
-    tagline: "Grenadina i mehurići. Omiljeni koktel svakog treznog gosta.",
-    accent: "#FF5C9E",
-    methodLabel: "Recept",
-    method:
-      "Napuni čašu ledom, sipaj grenadinu i limetu, dolij sodu i lagano promešaj.",
-    ingredients: [
-      { ref: "grenadina", amount: 20 },
-      { ref: "limeta", amount: 10 },
-      { ref: "soda", amount: 150 },
-    ],
-  },
-  {
-    id: "espreso-tonik",
-    name: "Espreso tonik",
-    category: "Bez alkohola",
-    tagline: "Gorka kafa i mehurići. Čudno dok ne probaš, posle samo to piješ.",
-    accent: "#E3C08A",
-    methodLabel: "Recept",
-    method:
-      "Napuni čašu ledom, sipaj espreso i limetu, dolij tonik i lagano promešaj.",
-    ingredients: [
-      { ref: "espreso", amount: 30 },
-      { ref: "limeta", amount: 10 },
-      { ref: "tonik", amount: 120 },
-    ],
-  },
-  {
+  },  {
     id: "zova-collins",
     name: "Zova Collins",
     category: "Džin",
@@ -306,23 +261,7 @@ export const cocktails = [
       { ref: "limun", amount: 20 },
       { ref: "soda", amount: 80 },
     ],
-  },
-  {
-    id: "zova-tonik",
-    name: "Zova tonik",
-    category: "Bez alkohola",
-    tagline: "Zova i tonik. Najmirisniji bezalkoholni u ponudi.",
-    accent: "#F2ECA0",
-    methodLabel: "Recept",
-    method:
-      "Napuni čašu ledom, sipaj sirup od zove i limetu, dolij tonik i promešaj.",
-    ingredients: [
-      { ref: "zova", amount: 25 },
-      { ref: "limeta", amount: 10 },
-      { ref: "tonik", amount: 130 },
-    ],
-  },
-  {
+  },  {
     id: "vodka-collins",
     name: "Vodka Collins",
     category: "Vodka",
@@ -337,8 +276,7 @@ export const cocktails = [
       { ref: "secer", amount: 15 },
       { ref: "soda", amount: 60 },
     ],
-  },
-  {
+  },  {
     id: "vodka-jabuka",
     name: "Vodka jabuka",
     category: "Vodka",
@@ -352,8 +290,7 @@ export const cocktails = [
       { ref: "sokJabuka", amount: 100 },
       { ref: "tonik", amount: 50 },
     ],
-  },
-  {
+  },  {
     id: "rakija-sidecar",
     name: "Rakija Sidecar",
     category: "Rakija",
@@ -367,8 +304,7 @@ export const cocktails = [
       { ref: "tripleSec", amount: 20 },
       { ref: "limun", amount: 20 },
     ],
-  },
-  {
+  },  {
     id: "rakija-tonik",
     name: "Rakija tonik",
     category: "Rakija",
@@ -380,8 +316,7 @@ export const cocktails = [
       { ref: "rakija", amount: 40 },
       { ref: "tonik", amount: 120 },
     ],
-  },
-  {
+  },  {
     id: "pelinkovac-tonik",
     name: "Pelinkovac tonik",
     category: "Pelinkovac",
@@ -393,8 +328,7 @@ export const cocktails = [
       { ref: "pelinkovac", amount: 50 },
       { ref: "tonik", amount: 120 },
     ],
-  },
-  {
+  },  {
     id: "pivo-jabuka",
     name: "Pivo i jabuka",
     category: "Pivo",
@@ -406,21 +340,6 @@ export const cocktails = [
     ingredients: [
       { ref: "staropramen", amount: 200 },
       { ref: "sokJabuka", amount: 100 },
-    ],
-  },
-  {
-    id: "jabuka-tonik",
-    name: "Jabuka tonik",
-    category: "Bez alkohola",
-    tagline: "Sve od jabuke, ni kap alkohola. I trezna ekipa ima svoj koktel.",
-    accent: "#BFE04A",
-    methodLabel: "Recept",
-    method:
-      "Napuni čašu ledom, sipaj sok od jabuke i limetu, dolij tonik i promešaj.",
-    ingredients: [
-      { ref: "sokJabuka", amount: 100 },
-      { ref: "limeta", amount: 10 },
-      { ref: "tonik", amount: 100 },
     ],
   },
 ];
